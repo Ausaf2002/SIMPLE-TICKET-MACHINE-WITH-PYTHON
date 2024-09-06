@@ -1,7 +1,8 @@
+import time
 print("TICKET MACHINE")
 
-NolCard = input("What is your NolCard? [Y/N]")
-multi = input("Is it a family ride? [Y/N] /n")
+NolCard = input("Using NolCard? [Y/N] \n")
+multi = input("Is it a family ride? [Y/N] \n")
 print("Calculating....\n")
 time.sleep(1)
 
